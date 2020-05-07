@@ -24,30 +24,78 @@ body {
 	padding: 200px 0px 200px 0;
 }
 
-.s2 {
-	background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-	width: 100%;
+/* ------------------------ SECCION 1 ------------------------ */
+
+.s1 {
+	padding-left: 200px;
 }
 
-.s2 .subseccion .s1 {
+.s1 button {
+	margin-top: 80px;
+}
+
+/* ------------------------ SECCION 2 ------------------------ */
+
+.s2 {
+	background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
 	display: flex;
 	justify-content: center;
-  	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
 }
 
 .embed {
 	padding: 36px 36px 36px 36px;
-	width: auto;
 	height: 175px;
 }
 
+/* ------------------------ SECCION 3 ------------------------ */
 
-.s4 .subseccion .s1 {
+.s3 {
 	display: flex;
-  	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.s3 .subseccion .ss1 h1{
+	text-align: left;
+}
+
+/* ------------------------ SECCION 4 ------------------------ */
+
+.s4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.h1s4 {
+	padding-left: 200px;
 }
 
 .estelares {
 	width: auto;
-	height: 240px;
+	height: 312px;
+}
+
+/* ------------------------ SECCION 5 ------------------------ */
+
+.s5 .subseccion .ss1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* ------------------------ SECCION 6 ------------------------ */
+
+.s6 {
+	background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
