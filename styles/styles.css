@@ -30,7 +30,7 @@ main {
 	/*background-color: #E67e33;*/
 }
 
-/* ------------------------  TABLET  ------------------------- */
+/* ------------------------  MOVIL  ------------------------- */
 
 @media screen and (max-width: 1024px){
 
@@ -367,7 +367,9 @@ footer p {
 /* ------------------------ SECCION 3 ------------------------ */
 
 .s3 {
-	margin: 73px 16px auto 16px;
+	margin: 73px 200px auto 200px;
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
 .s3 img {
@@ -396,5 +398,104 @@ footer p {
 }
 
 /* ------------------------ SECCION 4 ------------------------ */
+
+.s4 h4 {
+	margin: 54px 0px 21px 200px;
+	font-size: 36px;
+	font-family: 'IBM Plex Sans';
+	font-weight: 300;
+	color: #060A24;
+	letter-spacing: 0;
+	line-height: 42px;
+}
+
+.s4 .contenedor {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 0px 0px 48px 0px;
+}
+
+.s4 img {
+	width: 100%;
+}
+
+/* ------------------------ SECCION 5 ------------------------ */
+
+.s5 h4 {
+	margin: 64px 0px 21px 200px;
+	font-size: 36px;
+	font-family: 'IBM Plex Sans';
+	font-weight: 300;
+	color: #060A24;
+	letter-spacing: 0;
+	line-height: 42px;
+}
+	
+.s5 .contenedor {
+	display: grid;
+	grid-template-columns: auto auto auto auto ;
+	margin: 37px 0px 48px 0px;
+	justify-content: center;
+}
+
+.s5 .contenedor img {
+	justify-self: center;
+	height: 104px;
+	margin: 20px 40px 0px 40px;
+	order: 1;
+}
+
+.s5 .contenedor p {
+	justify-self: center;
+	text-align: center;
+	font-family: 'IBM Plex Sans';
+	font-weight: 500;
+	font-size: 24px;
+	color: #060A24;
+	letter-spacing: 0;
+	order: 2;
+	margin: 29px 20px 20px 20px;
+}
+
+/* ------------------------ SECCION 6 ------------------------ */
+
+.s6 {
+	background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+}
+
+.s6 svg {
+	background-image: #0000A3 100%;
+  	width: 100%;
+  	height: 10vw;
+}
+	
+.s6 h4 {
+	margin-top: 213px;
+	font-size: 36px;
+	font-family: 'IBM Plex Sans';
+	font-weight: 300;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 42px;
+	text-align: center;
+}
+	
+.s6 .contenedor {
+	padding: 0px 16px 67px 16px;
+}
+
+.s6 button {
+	margin: 36px 0px 151px 0px;
+	background: #00F3BB;
+	width: 345px;
+	height: 56px;
+	font-family: 'IBM Plex Mono';
+	font-weight: 600;
+	font-size: 16px;
+	color: #060A24;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 22px;
+}
 
 }
