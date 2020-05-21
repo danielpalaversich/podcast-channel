@@ -1,14 +1,16 @@
 header {
   background-color: white;
-  border-bottom: 1px solid lightgrey;
-  height: 35px;
+  height: 32px;
   padding: 10px 5%;
   position: fixed;
   top: 0;
   width: 90%;
-  font-family: 'Bebas Neue', cursive;
-  font-weight: 400;
+  font-family: 'IBM Plex Mono';
+  font-weight: 600;
+  line-height: 22px;
+  color: #060A24;
 }
+
 header img {
   float: left;
 }
