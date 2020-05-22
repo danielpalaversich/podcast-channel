@@ -32,14 +32,12 @@
         <nav>
             <div class="menu">
                 <input type="checkbox" id="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
+				<i class="fas fa-bars"></i>
                 <ul>
-                    <li><a href="#sobre" tabindex="1">EPISODIOS</a></li>
-                    <li><a href="#habilidades" tabindex="2">NOSOTROS</a></li>
-                    <li><a href="#trabajos" tabindex="3">ENTREVISTAS</a></li>
-                    <li><a href="#contacto" tabindex="4">TOPICOS</a></li>
+                    <li><a href="#s2" tabindex="1">EPISODIOS</a></li>
+                    <li><a href="#s3" tabindex="2">NOSOTROS</a></li>
+                    <li><a href="#s4" tabindex="3">ENTREVISTAS</a></li>
+                    <li><a href="#s5" tabindex="4">TOPICOS</a></li>
                 </ul>
             </div>
         </nav>    
@@ -53,12 +51,12 @@
 		<h1>Hello <span>world</span> pale blue dot<span class="color">.</span></h1>
 		<p class="cel">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
 		<p class="pc">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
-		<button class="btn" type="submit" tabindex="">CONOCÉ MÁS</button>
+		<button onclick="location.href='https://www.spotify.com/ar/';" class="btn" type="submit" tabindex="">CONOCÉ MÁS</button>
 	</div>
 
 	<!-- ------------------------ SECCION 2 ------------------------ -->
 
-	<div class="seccion s2">
+	<div class="seccion s2" id="s2">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
 			<polygon fill="white" points="0,0 0,100 100,0"/>
 		</svg>
@@ -76,7 +74,7 @@
 
 	<!-- ------------------------ SECCION 3 ------------------------ -->
 
-	<div class="seccion s3"> 
+	<div class="seccion s3" id="s3"> 
 		<div>
 			<img src="images/phone.png" alt="phone" class="phone"/>
 		</div>
@@ -89,7 +87,7 @@
 
 	<!-- ------------------------ SECCION 4 ------------------------ -->
 
-	<div class="seccion s4">
+	<div class="seccion s4" id="s4">
 		<h4>Invitadas/os estelares</h4>
 		<div class="contenedor">
 			<img src="images/grace-hopper.png" alt="estelares" class="estelares"/>
@@ -103,7 +101,7 @@
 
 	<!-- ------------------------ SECCION 5 ------------------------ -->
 
-	<div class="seccion s5">
+	<div class="seccion s5" id="s5">
 		<h4>Algunos de nuestros temas</h4>
 		<div class="contenedor">
 			<img src="images/icon1.svg" alt="icon" class="icon"/>
@@ -126,7 +124,7 @@
 
 		<div class="contenedor">
 			<h4>¿Querés las últimas novedades?</h4>
-			<button class="btn" type="submit" tabindex="">ESCUCHÁ LOS EPISODIOS</button>
+			<button onclick="location.href='https://www.spotify.com/ar/';" class="btn" type="submit" tabindex="">ESCUCHÁ LOS EPISODIOS</button>
 		</div>
 	</div>
 
@@ -136,11 +134,11 @@
 		<div class="contenedor">
 			<p>© 2019— Hello blue pale dot</p>
 			<div class="social">
-				<i class="fab fa-spotify"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-twitter"></i>
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-telegram"></i>
+				<a href="https://www.spotify.com/ar/"> <i class="fab fa-spotify"></i> </a>
+				<a href="https://www.instagram.com"> <i class="fab fa-instagram"></i> </a>
+				<a href="https://www.twitter.com"> <i class="fab fa-twitter"></i> </a>
+				<a href="https://www.facebook.com"> <i class="fab fa-facebook"></i> </a>
+				<a href="https://www.telegram.org"> <i class="fab fa-telegram"></i> </a>
 			</div>
 		</div>
 	</footer>
